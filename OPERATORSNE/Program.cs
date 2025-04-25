@@ -26,10 +26,75 @@ namespace OPERATORSNE
      * Aritmetic Operator: it used to perform mathematical operations.
      * +,-,*,/,%
      */
+    class calcu
+    {
+        public void add()
+        {
+
+        }
+        public int sum()
+        {
+            return 0;
+        }
+    }
     internal class Program
     {
         static void Main(string[] args)
         {
+               Add();
+            Sub();
+            Mul();
+            Div();
+            Modulus();
         }
+
+        private static void Add()
+        {
+            Console.WriteLine("Enter a number");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a number");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = a + b;
+            Console.WriteLine("sum of {0} and {1} is  {2}",a,b,c);
+        }
+        private static void Sub()
+        {
+            Console.WriteLine("Enter a number");
+            int a=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a number");
+            int b=Convert.ToInt32(Console.ReadLine());
+            int c = a - b;
+            Console.WriteLine("diff of {0} and {1} is  {2}", a, b, c);
+        }
+        private static void Mul()
+        {
+            Console.WriteLine("Enter a number");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a number");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = a * b;
+            Console.WriteLine("mul of {0} and {1} is  {2}", a, b, c);
+        }
+        private static void Div()
+        {
+            Console.WriteLine("Enter a number");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a number");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = a / b;
+            Console.WriteLine("Div of {0} and {1} is  {2}", a, b, c);
+        }
+        private static void Modulus()
+        {
+            Console.WriteLine("Enter a number");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a number");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = a % b;
+            Console.WriteLine("mul of {0} and {1} is  {2}", a, b, c);
+        }
+
+
+
     }
 }
