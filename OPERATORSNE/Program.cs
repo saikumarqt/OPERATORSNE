@@ -8,7 +8,7 @@ namespace OPERATORSNE
 {
     /*
      * Git Hub: repository where we have all our code.
-     * 
+     * Push the code to repository using visual studio
      */
     internal class Program
     {
